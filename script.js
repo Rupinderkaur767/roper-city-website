@@ -11,12 +11,12 @@ const places = [
         location: "Ropar, Punjab, India",
         rating: 4.8,
         photos: [
-            "images/museum1.jpg",
-            "images/museum2.jpg",
-            "images/museum3.jpg",
-            "images/museum4.jpg"
+            "museum1.jpg",
+            "museum2.jpg",
+            "museum3.jpg",
+            "museum4.jpg"
         ],
-        image: "images/place1.jpg"
+        image: "place1.jpg"
     },
 
     {
@@ -27,12 +27,12 @@ const places = [
         location: "Ropar, Punjab, India",
         rating: 4.7,
         photos: [
-            "images/satluj1.jpg",
-            "images/satluj2.jpg",
-            "images/satluj3.jpg",
-            "images/satluj4.jpg"
+            "satluj1.jpg",
+            "satluj2.jpg",
+            "satluj3.jpg",
+            "satluj4.jpg"
         ],
-        image: "images/place2.jpg"
+        image: "place2.jpg"
     },
 
     {
@@ -43,12 +43,12 @@ const places = [
         location: "Ropar, Punjab, India",
         rating: 4.9,
         photos: [
-            "images/bhatha1.jpg",
-            "images/bhatha2.jpg",
-            "images/bhatha3.jpg",
-            "images/bhatha4.jpg"
+            "bhatha1.jpg",
+            "bhatha2.jpg",
+            "bhatha3.jpg",
+            "bhatha4.jpg"
         ],
-        image: "images/place3.jpg"
+        image: "place3.jpg"
     }
 ];
 
