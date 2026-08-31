@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Places | Ropar City</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+    <div class="logo">ROPAR CITY</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="places.html">Places</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+
+<!-- PLACES SECTION -->
+<section class="places">
+
+    <p class="section-title">EXPLORE ROPAR</p>
+
+    <h2>Popular Places</h2>
+
+    <!-- SEARCH -->
+    <div class="search-box">
+        <input
+            type="text"
+            id="searchPlace"
+            placeholder="Search places..."
+        >
+    </div>
+
+    <!-- FILTER BUTTONS -->
+    <div class="filter-buttons">
+
+        <button onclick="filterPlaces('All')">All</button>
+
+        <button onclick="filterPlaces('Heritage')">
+            Heritage
+        </button>
+
+        <button onclick="filterPlaces('Nature')">
+            Nature
+        </button>
+
+        <button onclick="filterPlaces('Historical')">
+            Historical
+        </button>
+
+    </div>
+
+
+    <!-- DYNAMIC PLACES -->
+    <div id="placesContainer" class="places-container"></div>
+
+</section>
+
+
+<!-- PLACE PHOTO GALLERY POPUP -->
+
+<div id="placeGallery" class="place-gallery">
+
+    <div class="place-gallery-box">
+
+        <button
+            class="gallery-close"
+            onclick="closePlaceGallery()">
+            ×
+        </button>
+
+        <h2 id="galleryTitle"></h2>
+
+        <div
+            id="galleryImages"
+            class="gallery-images">
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h2>ROPAR CITY</h2>
+
+    <p>Explore • Discover • Experience</p>
+
+    <p>
+        © 2026 Ropar City. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<!-- JAVASCRIPT -->
+
+<script src="script.js"></script>
+
+</body>
+</html>

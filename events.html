@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Events | Ropar City</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+    <div class="logo">ROPAR CITY</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="places.html">Places</a></li>
+        <li><a href="events.html" class="active">Events</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+
+<!-- EVENTS HERO -->
+<section class="events-hero">
+
+    <p class="section-title">WHAT'S HAPPENING</p>
+
+    <h1>Events in Ropar</h1>
+
+    <p>
+        Discover festivals, cultural celebrations, heritage programs
+        and special events happening around Ropar.
+    </p>
+
+</section>
+
+
+<!-- SEARCH & FILTER -->
+<section class="event-controls">
+
+    <input
+        type="text"
+        id="eventSearch"
+        placeholder="🔍 Search events..."
+        onkeyup="searchEvents()"
+    >
+
+    <div class="event-filters">
+
+        <button onclick="filterEvents('all')">All</button>
+
+        <button onclick="filterEvents('festival')">
+            Festivals
+        </button>
+
+        <button onclick="filterEvents('cultural')">
+            Cultural
+        </button>
+
+        <button onclick="filterEvents('national')">
+            National
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- EVENTS -->
+<section class="events-section">
+
+    <div class="events-grid">
+
+
+        <!-- LOHRI -->
+        <div class="event-card" data-category="festival">
+
+            <img src="images/event1.jpg" alt="Lohri Celebration">
+
+            <div class="event-content">
+
+                <span class="event-date">🔥 JANUARY</span>
+
+                <h2>Lohri Celebration</h2>
+
+                <p>
+                    Celebrate the traditional Punjabi festival of Lohri
+                    with bonfires, folk music, dance and delicious food.
+                </p>
+
+                <p class="event-location">
+                    📍 Ropar, Punjab
+                </p>
+
+                <button onclick="showEvent(
+                    'Lohri Celebration',
+                    'Lohri is one of Punjab’s most loved winter festivals. People gather around the bonfire, sing traditional songs, dance and celebrate together.'
+                )">
+                    Read More
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- BHAISAKHI -->
+        <div class="event-card" data-category="festival">
+
+            <img src="images/event2.jpg" alt="Baisakhi Celebration">
+
+            <div class="event-content">
+
+                <span class="event-date">🌾 APRIL</span>
+
+                <h2>Baisakhi</h2>
+
+                <p>
+                    Experience Punjabi culture, traditional music,
+                    vibrant celebrations and the spirit of harvest.
+                </p>
+
+                <p class="event-location">
+                    📍 Ropar, Punjab
+                </p>
+
+                <button onclick="showEvent(
+                    'Baisakhi',
+                    'Baisakhi is an important harvest festival of Punjab. The celebration is filled with traditional music, bhangra, gidda and colourful cultural programs.'
+                )">
+                    Read More
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- INDEPENDENCE DAY -->
+        <div class="event-card" data-category="national">
+
+            <img src="images/event3.jpg" alt="Independence Day">
+
+            <div class="event-content">
+
+                <span class="event-date">🇮🇳 AUGUST 15</span>
+
+                <h2>Independence Day</h2>
+
+                <p>
+                    Celebrate India's Independence Day with flag
+                    hoisting, patriotic programs and cultural events.
+                </p>
+
+                <p class="event-location">
+                    📍 Ropar, Punjab
+                </p>
+
+                <button onclick="showEvent(
+                    'Independence Day',
+                    'Independence Day is celebrated with flag hoisting ceremonies, patriotic performances, speeches and cultural programs across Ropar.'
+                )">
+                    Read More
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- TEEYAN -->
+        <div class="event-card" data-category="cultural">
+
+            <img src="images/event4.jpg" alt="Teej Festival">
+
+            <div class="event-content">
+
+                <span class="event-date">🌸 MONSOON</span>
+
+                <h2>Teej Festival</h2>
+
+                <p>
+                    Enjoy Punjabi folk traditions, gidda, mehndi,
+                    traditional dresses and joyful cultural activities.
+                </p>
+
+                <p class="event-location">
+                    📍 Ropar, Punjab
+                </p>
+
+                <button onclick="showEvent(
+                    'Teej Festival',
+                    'Teej brings together Punjabi traditions, folk songs, gidda, mehndi and colourful cultural activities. It is a celebration of joy and togetherness.'
+                )">
+                    Read More
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- GURPURAB -->
+        <div class="event-card" data-category="cultural">
+
+            <img src="images/event5.jpg" alt="Gurpurab Celebration">
+
+            <div class="event-content">
+
+                <span class="event-date">🪯 GURPURAB</span>
+
+                <h2>Gurpurab Celebration</h2>
+
+                <p>
+                    Experience devotional programs, kirtan,
+                    Nagar Kirtan and community celebrations.
+                </p>
+
+                <p class="event-location">
+                    📍 Ropar, Punjab
+                </p>
+
+                <button onclick="showEvent(
+                    'Gurpurab Celebration',
+                    'Gurpurab is observed with prayers, kirtan, Nagar Kirtan, community service and peaceful religious gatherings.'
+                )">
+                    Read More
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- HERITAGE FESTIVAL -->
+        <div class="event-card" data-category="cultural">
+
+            <img src="images/event6.jpg" alt="Ropar Heritage Festival">
+
+            <div class="event-content">
+
+                <span class="event-date">🏛️ HERITAGE</span>
+
+                <h2>Ropar Heritage Festival</h2>
+
+                <p>
+                    Discover the history, heritage, traditional arts,
+                    crafts and cultural identity of Ropar.
+                </p>
+
+                <p class="event-location">
+                    📍 Ropar, Punjab
+                </p>
+
+                <button onclick="showEvent(
+                    'Ropar Heritage Festival',
+                    'A heritage-themed celebration can showcase Ropar’s historical importance through traditional arts, handicrafts, exhibitions, performances and local culture.'
+                )">
+                    Read More
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- POPUP -->
+<div id="eventModal" class="event-modal">
+
+    <div class="event-modal-content">
+
+        <span class="modal-close" onclick="closeEvent()">
+            &times;
+        </span>
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalDescription"></p>
+
+    </div>
+
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <h2>ROPAR CITY</h2>
+
+    <p>Explore • Discover • Experience</p>
+
+    <p>© 2026 Ropar City. All Rights Reserved.</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

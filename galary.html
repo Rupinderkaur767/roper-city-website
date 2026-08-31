@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | Ropar City</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+
+        <div class="logo">ROPAR CITY</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="places.html">Places</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+
+
+    <!-- GALLERY -->
+
+    <section class="places">
+
+        <p class="section-title">EXPLORE ROPAR</p>
+
+        <h2>Photo Galary</h2>
+
+        <div class="gallery">
+
+    <img src="images/place1.jpg" alt="Ropar Wetland" onclick="openImage(this)">
+    <img src="images/place2.jpg" alt="Anandpur Sahib" onclick="openImage(this)">
+    <img src="images/place3.jpg" alt="Ropar Heritage" onclick="openImage(this)">
+    <img src="images/roper.jpg" alt="Ropar City" onclick="openImage(this)">
+
+</div>
+
+<!-- IMAGE POPUP -->
+<div id="imagePopup" class="image-popup">
+
+    <span class="close" onclick="closeImage()">&times;</span>
+
+    <button class="prev" onclick="previousImage()">❮</button>
+
+    <img id="popupImage">
+
+    <button class="next" onclick="nextImage()">❯</button>
+
+</div>
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h2>ROPAR CITY</h2>
+
+        <p>Explore • Discover • Experience</p>
+
+        <p>© 2026 Ropar City. All Rights Reserved.</p>
+
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ropar City | Explore Rupnagar</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">ROPAR CITY</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="places.html">Places</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="galary.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- HERO IMAGE SLIDER -->
+
+<section class="hero-slider">
+
+    <div class="slide active">
+        <img src="images/roper.jpg" alt="Ropar City">
+        <div class="slide-content">
+            <h1>ROPAR CITY</h1>
+            <h2>Explore the Heart of Rupnagar</h2>
+            <p>Discover the history, culture, heritage and beautiful places of Ropar.</p>
+
+            <a href="places.html" class="hero-btn">Explore Places</a>
+            <a href="about.html" class="hero-btn">Discover Ropar</a>
+        </div>
+    </div>
+
+    <div class="slide">
+        <img src="images/place1.jpg" alt="Ropar Wetland">
+        <div class="slide-content">
+            <h1>ROPAR WETLAND</h1>
+            <h2>Beauty of Nature</h2>
+            <p>Enjoy the peaceful surroundings and natural beauty of Ropar Wetland.</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <img src="images/place2.jpg" alt="Anandpur Sahib">
+        <div class="slide-content">
+            <h1>HERITAGE & CULTURE</h1>
+            <h2>Explore Punjab's Rich Heritage</h2>
+            <p>Discover historic places, religious sites and the cultural heritage around Ropar.</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <img src="images/place3.jpg" alt="Ropar Heritage">
+        <div class="slide-content">
+            <h1>HISTORIC ROPAR</h1>
+            <h2>A City Full of Stories</h2>
+            <p>Explore the ancient history and fascinating heritage of Ropar.</p>
+        </div>
+    </div>
+
+    <!-- Previous / Next -->
+    <button class="slider-btn prev-slide" onclick="changeSlide(-1)">❮</button>
+    <button class="slider-btn next-slide" onclick="changeSlide(1)">❯</button>
+
+    <!-- Dots -->
+    <div class="slider-dots">
+        <span onclick="showSlide(0)" class="dot active-dot"></span>
+        <span onclick="showSlide(1)" class="dot"></span>
+        <span onclick="showSlide(2)" class="dot"></span>
+        <span onclick="showSlide(3)" class="dot"></span>
+    </div>
+
+</section>
+
+    <!-- INTRODUCTION -->
+    <section class="intro">
+
+        <p class="section-title">DISCOVER ROpar</p>
+
+        <h2>Welcome to Ropar</h2>
+
+        <p>
+            Ropar, officially known as Rupnagar, is a historic city
+            of Punjab known for its rich heritage, culture and
+            beautiful surroundings.
+        </p>
+
+    </section>
+
+
+    <!-- POPULAR PLACES -->
+    <section class="places" id="places">
+
+    <p class="section-title">EXPLORE</p>
+    <h2>Popular Places</h2>
+    <div class="place-tools">
+
+    <input
+        type="text"
+        id="searchPlace"
+        placeholder="Search places..."
+    >
+
+    <div class="filter-buttons">
+        <button onclick="filterPlaces('All')">All</button>
+        <button onclick="filterPlaces('Nature')">Nature</button>
+        <button onclick="filterPlaces('Historical')">Historical</button>
+        <button onclick="filterPlaces('Heritage')">Heritage</button>
+    </div>
+
+</div>
+
+    <div class="cards" id="placesContainer">
+        <!-- Places JavaScript se yahan load honge -->
+    </div>
+
+</section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h2>ROPAR CITY</h2>
+
+        <p>
+            Explore • Discover • Experience
+        </p>
+        
+
+        <p>
+            © 2026 Ropar City. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+<!-- ===============================
+     REVIEWS SECTION
+================================ -->
+
+<section class="reviews-section">
+
+    <h2>⭐ Visitor Reviews</h2>
+
+    <div class="review-form">
+
+        <input
+            type="text"
+            id="reviewName"
+            placeholder="Your Name"
+        >
+
+        <select id="reviewRating">
+            <option value="5">⭐⭐⭐⭐⭐ 5/5</option>
+            <option value="4">⭐⭐⭐⭐ 4/5</option>
+            <option value="3">⭐⭐⭐ 3/5</option>
+            <option value="2">⭐⭐ 2/5</option>
+            <option value="1">⭐ 1/5</option>
+        </select>
+
+        <textarea
+            id="reviewText"
+            placeholder="Write your review..."
+        ></textarea>
+
+        <button onclick="addReview()">
+            Submit Review
+        </button>
+
+    </div>
+
+    <div id="reviewsContainer"></div>
+
+</section>
+</html>

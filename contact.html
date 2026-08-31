@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Ropar City</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">ROPAR CITY</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="places.html">Places</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="galary.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+
+<!-- CONTACT -->
+
+<section class="contact-section">
+
+    <p class="section-title">GET IN TOUCH</p>
+
+    <h1>Contact Ropar City</h1>
+
+    <p class="contact-intro">
+        Have a question, suggestion or feedback?
+        Send us a message.
+    </p>
+
+
+    <div class="contact-container">
+
+
+        <!-- CONTACT INFORMATION -->
+
+        <div class="contact-info">
+
+            <h2>📍 Contact Information</h2>
+
+            <p>
+                📍 <strong>Location:</strong><br>
+                Rupnagar, Punjab, India
+            </p>
+
+            <p>
+                📧 <strong>Email:</strong><br>
+                info@roparcity.com
+            </p>
+
+            <p>
+                📞 <strong>Phone:</strong><br>
+                +91 00000 00000
+            </p>
+
+            <p>
+                🌐 <strong>Website:</strong><br>
+                Ropar City
+            </p>
+
+        </div>
+
+
+        <!-- CONTACT FORM -->
+
+        <div class="contact-form">
+
+            <h2>Send Us a Message</h2>
+
+            <form onsubmit="sendMessage(event)">
+
+                <input
+                    type="text"
+                    id="contactName"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="contactEmail"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="contactSubject"
+                    placeholder="Subject"
+                    required
+                >
+
+                <textarea
+                    id="contactMessage"
+                    placeholder="Write your message..."
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Send Message →
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <h2>ROPAR CITY</h2>
+
+    <p>Explore • Discover • Experience</p>
+
+    <p>© 2026 Ropar City. All Rights Reserved.</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
