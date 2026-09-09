@@ -197,12 +197,12 @@ const places = [
     rating: 4.5,
     photos: [
         
-        "images/hungry1.jpg",
-        "images/hungry2.jpg",
-        "images/hungry3.jpg",
-        "images/hungry4.jpg"
+        "hungry1.jpg",
+        "hungry2.jpg",
+        "hungry3.jpg",
+        "hungry4.jpg"
     ],
-    image: "images/hungry.jpg"
+    image: "hungry.jpg"
 
 },
 
@@ -215,12 +215,12 @@ const places = [
     location: "Chamkaur Sahib, Punjab, India",
     rating: 4.5,
     photos: [
-        "images/kafla1.jpg",
-        "images/kafla2.jpg",
-        "images/kafla3.jpg",
-        "images/kafla4.jpg"
+        "kafla1.jpg",
+        "kafla2.jpg",
+        "kafla3.jpg",
+        "kafla4.jpg"
     ],
-    image: "images/kafla.jpg"
+    image: "kafla.jpg"
 
 },
 
@@ -233,12 +233,12 @@ const places = [
     location: "Chamkaur Sahib, Punjab, India",
     rating: 4.5,
     photos: [
-        "images/farmer1.jpg",
-        "images/farmer2.jpg",
-        "images/farmer3.jpg",
-        "images/farmer4.jpg"
+        "farmer1.jpg",
+        "farmer2.jpg",
+        "farmer3.jpg",
+        "farmer4.jpg"
     ],
-    image: "images/farmer.jpg"
+    image: "farmer.jpg"
 
 },
 
@@ -251,12 +251,12 @@ const places = [
     location: "Chamkaur Sahib, Punjab, India",
     rating: 4.3,
     photos: [
-        "images/sip1.jpg",
-        "images/sip2.jpg",
-        "images/sip3.jpg",
-        "images/sip4.jpg"
+        "sip1.jpg",
+        "sip2.jpg",
+        "sip3.jpg",
+        "sip4.jpg"
     ],
-    image: "images/sip.jpg"
+    image: "sip.jpg"
 
 },
 
@@ -269,12 +269,12 @@ const places = [
     location: "Chamkaur Sahib, Punjab, India",
     rating: 4.3,
     photos: [
-        "images/cafe211.jpg",
-        "images/cafe212.jpg",
-        "images/cafe213.jpg",
-        "images/cafe214.jpg"
+        "cafe211.jpg",
+        "cafe212.jpg",
+        "cafe213.jpg",
+        "cafe214.jpg"
     ],
-    image: "images/cafe21.jpg"
+    image: "cafe21.jpg"
 
 },
 
@@ -287,12 +287,12 @@ const places = [
     location: "Chamkaur Sahib, Punjab, India",
     rating: 4.3,
     photos: [
-        "images/danapani1.jpg",
-        "images/danapani2.jpg",
-        "images/danapani3.jpg",
-        "images/danapani4.jpg"
+        "danapani1.jpg",
+        "danapani2.jpg",
+        "danapani3.jpg",
+        "danapani4.jpg"
     ],
-    image: "images/danapani.jpg"
+    image: "danapani.jpg"
 
 },
 
@@ -305,12 +305,12 @@ const places = [
     location: "Chamkaur Sahib, Punjab, India",
     rating: 4.3,
     photos: [
-        "images/country1.jpg",
-        "images/country2.jpg",
-        "images/country3.jpg",
-        "images/country4.jpg"
+        "country1.jpg",
+        "country2.jpg",
+        "country3.jpg",
+        "country4.jpg"
     ],
-    image: "images/country.jpg"
+    image: "country.jpg"
 
 },
 {
@@ -321,11 +321,11 @@ const places = [
     location: "Rupnagar, Punjab, India",
     rating: 4.8,
     photos: [],
-    image: " images/gts.jpg",
+    image: " gts.jpg",
 photos: [
-    "images/gts1.jpg",
-    "images/gts2.jpg",
-    "images/gts3.jpg"
+    "gts1.jpg",
+    "gts2.jpg",
+    "gts3.jpg"
     
 ],
 },
@@ -339,10 +339,10 @@ photos: [
     rating: 4.5,
     image: "images/gkm.jpg",
     photos: [
-        "images/gkm1.jpg",
-        "images/gkm2.jpg",
-        "images/gkm3.jpg",
-        "images/gkm4.jpg"
+        "gkm1.jpg",
+        "gkm2.jpg",
+        "gkm3.jpg",
+        "gkm4.jpg"
     ]
 },
 
@@ -357,10 +357,10 @@ photos: [
     image: "images/gss.jpg",
 
     photos: [
-        "images/gss1.jpg",
-        "images/gss2.jpg",
-        "images/gss3.jpg",
-        "images/gss4.jpg"
+        "gss1.jpg",
+        "gss2.jpg",
+        "gss3.jpg",
+        "gss4.jpg"
     ]
 },
 
@@ -372,12 +372,12 @@ photos: [
     location: "Phool Khurd, Rupnagar, Punjab, India",
     rating: 4.2,
 
-    image: "images/gspk1.jpg",
+    image: "gspk1.jpg",
 
     photos: [
-        "images/gspk1.jpg",
-        "images/gspk2.jpg",
-        "images/gspk3.jpg"
+        "gspk1.jpg",
+        "gspk2.jpg",
+        "gspk3.jpg"
     
     ]
 },
@@ -392,13 +392,13 @@ photos: [
     image: "images/guru nanak darbar.jpg",
 
     photos: [
-        "images/guru nanak darbar1.jpg",
-        "images/guru nanak darbar2.jpg",
-        "images/guru nanak darbar3.jpg",
-        "images/guru nanak darbar4.jpg",
-        "images/guru nanak darbar5.jpg",
-        "images/guru nanak darbar6.jpg",
-        "images/guru nanak darbar7.jpg"
+        "guru nanak darbar1.jpg",
+        "guru nanak darbar2.jpg",
+        "guru nanak darbar3.jpg",
+        "guru nanak darbar4.jpg",
+        "guru nanak darbar5.jpg",
+        "guru nanak darbar6.jpg",
+        "guru nanak darbar7.jpg"
     ]
 },
 
@@ -413,10 +413,10 @@ photos: [
     image: "images/ghdkp.jpg",
 
     photos: [
-        "images/ghdkp1.jpg",
-        "images/ghdkp2.jpg",
-        "images/ghdkp3.jpg",
-        "images/ghdkp4.jpg"
+        "ghdkp1.jpg",
+        "ghdkp2.jpg",
+        "ghdkp3.jpg",
+        "ghdkp4.jpg"
     ]
 },
 {
@@ -428,12 +428,12 @@ photos: [
         location: "Ropar, Punjab, India",
         rating: 4.8,
         photos: [
-            "images/museum1.jpg",
-            "images/museum2.jpg",
-            "images/museum3.jpg",
-            "images/museum4.jpg"
+            "museum1.jpg",
+            "museum2.jpg",
+            "museum3.jpg",
+            "museum4.jpg"
         ],
-        image: "images/place1.jpg"
+        image: "place1.jpg"
     },
 
     {
@@ -445,12 +445,12 @@ photos: [
         phone:"o1881-228102",
         rating: 4.7,
         photos: [
-            "images/satluj1.jpg",
-            "images/satluj2.jpg",
-            "images/satluj3.jpg",
-            "images/satluj4.jpg"
+            "satluj1.jpg",
+            "satluj2.jpg",
+            "satluj3.jpg",
+            "satluj4.jpg"
         ],
-        image: "images/place2.jpg"
+        image: "place2.jpg"
     },
 
     {
@@ -461,12 +461,12 @@ photos: [
         location: "Ropar, Punjab, India",
         rating: 4.9,
         photos: [
-            "images/bhatha1.jpg",
-            "images/bhatha2.jpg",
-            "images/bhatha3.jpg",
-            "images/bhatha4.jpg"
+            "bhatha1.jpg",
+            "bhatha2.jpg",
+            "bhatha3.jpg",
+            "bhatha4.jpg"
         ],
-        image: "images/place3.jpg"
+        image: "place3.jpg"
     }
 ];
 
