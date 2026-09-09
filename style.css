@@ -2591,3 +2591,181 @@ img {
 .developer-credit strong {
     color: #f5c542;
 }
+/* Language Dropdown */
+
+.language-switch {
+    position: relative;
+    display: inline-block;
+}
+
+.language-switch > button {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 8px 10px;
+}
+
+.language-switch > button:hover {
+    color: #ffd700;
+}
+
+.language-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    min-width: 100px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    z-index: 9999;
+}
+
+.language-menu.show {
+    display: block;
+}
+
+.language-menu button {
+    width: 100%;
+    background: white;
+    color: #111827;
+    border: none;
+    padding: 10px 14px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.language-menu button:hover {
+    background: #f1f1f1;
+}
+/* Hide Google Translate top bar */
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+body {
+    top: 0 !important;
+}
+
+.goog-te-gadget {
+    display: none !important;
+}
+
+/* Hide Google Translate extra elements */
+body > .skiptranslate {
+    display: none !important;
+}
+/* ============================= */
+/* LANGUAGE SWITCHER FINAL STYLE */
+/* ============================= */
+
+.language-switch {
+    position: relative;
+    display: inline-block;
+}
+
+.language-switch > button {
+    background: transparent !important;
+    color: white !important;
+    border: none !important;
+    padding: 8px 12px !important;
+    font-size: 16px !important;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.language-switch > button:hover {
+    color: #ffd700 !important;
+}
+
+.language-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 110px;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    z-index: 99999;
+    padding: 5px 0;
+}
+
+.language-menu.show {
+    display: block !important;
+}
+
+.language-menu button {
+    display: block;
+    width: 100%;
+    background: white !important;
+    color: #111827 !important;
+    border: none !important;
+    padding: 10px 15px !important;
+    font-size: 15px !important;
+    cursor: pointer;
+}
+
+.language-menu button:hover {
+    background: #eeeeee !important;
+}
+.call-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background: #16a34a;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.call-button:hover {
+    background: #15803d;
+}
+/* =========================
+   PLACE CARD HOVER ANIMATION
+========================= */
+
+.place-card {
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.place-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+.place-card .place-image {
+    transition: transform 0.5s ease;
+}
+
+.place-card:hover .place-image {
+    transform: scale(1.08);
+}
+/* Premium Image Hover Effect */
+
+.place-card {
+    overflow: hidden;
+}
+
+.place-card .place-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.place-card .place-image::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.4s ease;
+}
+
+.place-card:hover .place-image::after {
+    background: rgba(0, 0, 0, 0.15);
+}

@@ -23,6 +23,14 @@
             <li><a href="news.html">News</a></li>
             <li><a href="galary.html">Gallery</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li class="language-switch">
+    <button onclick="toggleLanguageMenu()">English ▾</button>
+
+    <div id="languageMenu" class="language-menu">
+        <button onclick="setLanguage('pa')">ਪੰਜਾਬੀ</button>
+    </div>
+</li>
+    
         </ul>
     </nav>
 
@@ -32,7 +40,7 @@
 <section class="hero-slider">
 
     <div class="slide active">
-        <img src="roper.jpg" alt="Ropar City">
+        <img src="images/roper.jpg" alt="Ropar City">
         <div class="slide-content">
             <h1>ROPAR CITY</h1>
             <h2>Explore the Heart of Rupnagar</h2>
@@ -44,7 +52,7 @@
     </div>
 
     <div class="slide">
-        <img src="place1.jpg" alt="Ropar Wetland">
+        <img src="images/place1.jpg" alt="Ropar Wetland">
         <div class="slide-content">
             <h1>ROPAR WETLAND</h1>
             <h2>Beauty of Nature</h2>
@@ -53,7 +61,7 @@
     </div>
 
     <div class="slide">
-        <img src="place2.jpg" alt="Anandpur Sahib">
+        <img src="images/place2.jpg" alt="Anandpur Sahib">
         <div class="slide-content">
             <h1>HERITAGE & CULTURE</h1>
             <h2>Explore Punjab's Rich Heritage</h2>
@@ -62,7 +70,7 @@
     </div>
 
     <div class="slide">
-        <img src="place3.jpg" alt="Ropar Heritage">
+        <img src="images/place3.jpg" alt="Ropar Heritage">
         <div class="slide-content">
             <h1>HISTORIC ROPAR</h1>
             <h2>A City Full of Stories</h2>
@@ -147,6 +155,20 @@
 
 
     <script src="script.js"></script>
+    <!-- Google Translate -->
+<div id="google_translate_element" style="display:none;"></div>
+
+<script>
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,pa',
+        autoDisplay: false
+    }, 'google_translate_element');
+}
+</script>
+
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 <!-- ===============================

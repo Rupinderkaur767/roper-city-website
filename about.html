@@ -25,6 +25,13 @@
             <li><a href="news.html">News</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li class="language-switch">
+    <button onclick="toggleLanguageMenu()">English ▾</button>
+
+    <div id="languageMenu" class="language-menu">
+        <button onclick="setLanguage('pa')">ਪੰਜਾਬੀ</button>
+    </div>
+</li>
         </ul>
 
     </nav>
@@ -318,6 +325,20 @@
 
 
     <script src="script.js"></script>
+    <!-- Google Translate -->
+<div id="google_translate_element" style="display:none;"></div>
+
+<script>
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,pa',
+        autoDisplay: false
+    }, 'google_translate_element');
+}
+</script>
+
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 
