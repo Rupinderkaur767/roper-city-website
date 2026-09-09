@@ -337,7 +337,7 @@ photos: [
     details: "Etihasak Gurudwara Guru Ke Mehal Ucha Khera is remembered as part of the Sikh historical heritage of the Rupnagar region. The site reflects the area's deep connection with Sikh history and tradition.",
     location: "Ucha Khera, Rupnagar, Punjab, India",
     rating: 4.5,
-    image: "images/gkm.jpg",
+    image: "gkm.jpg",
     photos: [
         "gkm1.jpg",
         "gkm2.jpg",
@@ -354,7 +354,7 @@ photos: [
     location: "Haveli Kalan, Rupnagar, Punjab, India",
     rating: 4.5,
 
-    image: "images/gss.jpg",
+    image: "gss.jpg",
 
     photos: [
         "gss1.jpg",
@@ -389,7 +389,7 @@ photos: [
     location: "Haveli Kalan, Rupnagar, Punjab, India",
     rating: 4.7,
 
-    image: "images/guru nanak darbar.jpg",
+    image: "guru nanak darbar.jpg",
 
     photos: [
         "guru nanak darbar1.jpg",
@@ -410,7 +410,7 @@ photos: [
     location: "Kot Puran, Rupnagar, Punjab, India",
     rating: 4.9,
 
-    image: "images/ghdkp.jpg",
+    image: "ghdkp.jpg",
 
     photos: [
         "ghdkp1.jpg",
