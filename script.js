@@ -11,18 +11,18 @@ const places = [
         location:"Bela Chowk, Rupnagar, Punjab, India",
         rating:4.5,
         photos:[
-            "images/hospital1.jpg",
-            "images/hospital2.jpg",
-            "images/hospital3.jpg",
-            "images/hospital4.jpg",
-            "images/hospital5.jpg",
-            "images/hospital6.jpg",
-            "images/hospital7.jpg",
-            "images/hospital8.jpg",
-            "images/hospital9.jpg",
-            "images/hospital10.jpg"
+            "hospital1.jpg",
+            "hospital2.jpg",
+            "hospital3.jpg",
+            "hospital4.jpg",
+            "hospital5.jpg",
+            "hospital6.jpg",
+            "hospital7.jpg",
+            "hospital8.jpg",
+            "hospital9.jpg",
+            "hospital10.jpg"
         ],
-        image: "images/hospital5.jpg"
+        image: "hospital5.jpg"
     },
     {
     name: "Civil Hospital Rupnagar",
@@ -32,12 +32,12 @@ const places = [
     location: "Ali Mohalla, Rupnagar, Punjab, India",
     rating: 3.2,
     photos: [
-        "images/civil1.jpg",
-        "images/civil2.jpg",
-        "images/civil3.jpg",
-        "images/civil4.jpg"
+        "civil1.jpg",
+        "civil2.jpg",
+        "civil3.jpg",
+        "civil4.jpg"
     ],
-    image: "images/civil1.jpg"
+    image: "civil1.jpg"
 },
 
 {
@@ -48,12 +48,12 @@ const places = [
     location: "Giani Zail Singh Nagar, Rupnagar, Punjab, India",
     rating: 4.6,
     photos: [
-        "images/sangha1.jpg",
-        "images/sangha2.jpg",
-        "images/sangha3.jpg",
-        "images/sangha4.jpg"
+        "sangha1.jpg",
+        "sangha2.jpg",
+        "sangha3.jpg",
+        "sangha4.jpg"
     ],
-    image: "images/sangha1.jpg"
+    image: "sangha1.jpg"
 },
 
 {
@@ -64,12 +64,12 @@ const places = [
     location: "Preet Colony, Rupnagar, Punjab, India",
     rating: 4.3,
     photos: [
-        "images/baweja1.jpg",
-        "images/baweja2.jpg",
-        "images/baweja3.jpg",
-        "images/baweja4.jpg"
+        "baweja1.jpg",
+        "baweja2.jpg",
+        "baweja3.jpg",
+        "baweja4.jpg"
     ],
-    image: "images/baweja1.jpg"
+    image: "baweja1.jpg"
 },
 
 {
@@ -80,12 +80,12 @@ const places = [
     location: "3141 College Road, Rupnagar, Punjab, India",
     rating: 4.9,
     photos: [
-        "images/pannu1.jpg",
-        "images/pannu2.jpg",
-        "images/pannu3.jpg",
-        "images/pannu4.jpg"
+        "pannu1.jpg",
+        "pannu2.jpg",
+        "pannu3.jpg",
+        "pannu4.jpg"
     ],
-    image: "images/pannu1.jpg"
+    image: "pannu1.jpg"
 },
 
 {
@@ -96,12 +96,12 @@ const places = [
     location: "Bela Road, Rupnagar, Punjab, India",
     rating: 4.6,
     photos: [
-        "images/parmar1.jpg",
-        "images/parmar2.jpg",
-        "images/parmar3.jpg",
-        "images/parmar4.jpg"
+        "parmar1.jpg",
+        "parmar2.jpg",
+        "parmar3.jpg",
+        "parmar4.jpg"
     ],
-    image: "images/parmar1.jpg"
+    image: "parmar1.jpg"
 },
 {
     name: "Aggarwal Hospital",
@@ -112,12 +112,12 @@ const places = [
     phone: "+91 98777 00827",
     rating: 4.9,
     photos: [
-        "images/aggarwal1.jpg",
-        "images/aggarwal2.jpg",
-        "images/aggarwal3.jpg",
-        "images/aggarwal4.jpg"
+        "aggarwal1.jpg",
+        "aggarwal2.jpg",
+        "aggarwal3.jpg",
+        "aggarwal4.jpg"
     ],
-    image: "images/aggarwal1.jpg"
+    image: "aggarwal1.jpg"
 },
 
 {
@@ -129,12 +129,12 @@ const places = [
     phone: "+91 1881 500921",
     rating: 4.2,
     photos: [
-        "images/bijendra1.jpg",
-        "images/bijendra2.jpg",
-        "images/bijendra3.jpg",
-        "images/bijendra4.jpg"
+        "bijendra1.jpg",
+        "bijendra2.jpg",
+        "bijendra3.jpg",
+        "bijendra4.jpg"
     ],
-    image: "images/bijendra1.jpg"
+    image: "bijendra1.jpg"
 },
 
 {
@@ -146,12 +146,12 @@ const places = [
     phone: "+91 82880 00738",
     rating: 5.0,
     photos: [
-        "images/simran1.jpg",
-        "images/simran2.jpg",
-        "images/simran3.jpg",
-        "images/simran4.jpg"
+        "simran1.jpg",
+        "simran2.jpg",
+        "simran3.jpg",
+        "simran4.jpg"
     ],
-    image: "images/simran1.jpg"
+    image: "simran1.jpg"
 },
 
 {
@@ -163,12 +163,12 @@ const places = [
     phone: "01881-222102",
     rating: 4.3,
     photos: [
-        "images/snd1.jpg",
-        "images/snd2.jpg",
-        "images/snd3.jpg",
-        "images/snd4.jpg"
+        "snd1.jpg",
+        "snd2.jpg",
+        "snd3.jpg",
+        "snd4.jpg"
     ],
-    image: "images/snd1.jpg"
+    image: "snd1.jpg"
 },
 
 {
@@ -180,10 +180,10 @@ const places = [
     phone: "+91 98883 72166",
     rating: 4.9,
     photos: [
-        "images/choudhary1.jpg",
-        "images/choudhary2.jpg",
-        "images/choudhary3.jpg",
-        "images/choudhary4.jpg"
+        "choudhary1.jpg",
+        "choudhary2.jpg",
+        "choudhary3.jpg",
+        "choudhary4.jpg"
     ],
     image: "images/choudhary1.jpg"
 },
