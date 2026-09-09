@@ -185,7 +185,7 @@ const places = [
         "choudhary3.jpg",
         "choudhary4.jpg"
     ],
-    image: "images/choudhary1.jpg"
+    image: "choudhary1.jpg"
 },
 {
    
